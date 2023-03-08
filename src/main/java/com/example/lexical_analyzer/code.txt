@@ -1,0 +1,10 @@
+program Greetings;
+type name = string;
+int x = 1.10;
+var firstname , surname : name;
+begin
+readln(firstname);
+readln(surname);
+writeln;
+writeln(firstname ,surname);
+end
